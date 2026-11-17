@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Cosmetic 템플릿 데모</title>
+<style>
+  :root { --ink: #1f2328; --muted: #5b6470; --line: #e3e0da; --bg: #faf8f5; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", system-ui, sans-serif; color: var(--ink); background: var(--bg); }
+  main { max-width: 960px; margin: 0 auto; padding: 56px 16px 72px; }
+  h1 { font-size: 2rem; margin: 0 0 8px; }
+  p.lead { color: var(--muted); margin: 0 0 32px; line-height: 1.7; }
+  ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  a.card { display: block; height: 100%; padding: 24px; border: 1px solid var(--line); border-radius: 6px; background: #fff; color: inherit; text-decoration: none; transition: box-shadow .2s, transform .2s; }
+  a.card:hover { box-shadow: 0 14px 30px -18px rgba(0,0,0,.35); transform: translateY(-2px); }
+  .sw { display: flex; gap: 6px; margin-bottom: 16px; }
+  .sw span { width: 28px; height: 28px; border-radius: 50%; border: 1px solid rgba(0,0,0,.08); }
+  strong { display: block; font-size: 1.25rem; margin-bottom: 6px; }
+  small { color: var(--muted); line-height: 1.6; display: block; }
+  .go { margin-top: 16px; font-weight: 600; }
+  footer { margin-top: 40px; color: var(--muted); font-size: .875rem; line-height: 1.7; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Cosmetic 템플릿 데모</h1>
+  <p class="lead">국내 화장품 브랜드가 해외 거래처에 브랜드를 소개하고 거래 문의를 받는 홈페이지 템플릿입니다.<br>디자인 3종 중 하나를 골라 브랜드 정보와 사진만 바꾸면 고객사 홈페이지가 완성됩니다.</p>
+  <ul>
+    <li><a class="card" href="aurelle/"><div class="sw"><span style="background:#f4ede4"></span><span style="background:#d8a7a0"></span><span style="background:#3b2f2f"></span></div><strong>AURELLE</strong><small>아이보리·로즈 톤, 큰 사진 슬라이드로 브랜드 분위기를 먼저 보여 주는 디자인</small><div class="go">보러 가기 →</div></a></li>
+    <li><a class="card" href="sovenra/"><div class="sw"><span style="background:#eef1ea"></span><span style="background:#8fa58a"></span><span style="background:#2f3a2e"></span></div><strong>SOVENRA</strong><small>세이지 그린 톤, 식물 도감처럼 제품을 차분하게 정리한 카탈로그형 디자인</small><div class="go">보러 가기 →</div></a></li>
+    <li><a class="card" href="seorinne/"><div class="sw"><span style="background:#eef2f5"></span><span style="background:#8fa3b3"></span><span style="background:#26323d"></span></div><strong>SEORINNE</strong><small>미스트 블루그레이 톤, 화면을 가르는 S자 곡선과 첫 화면 제품 진열대</small><div class="go">보러 가기 →</div></a></li>
+  </ul>
+  <footer>포트폴리오용 데모입니다. 브랜드·제품은 모두 가상이며, 이 정적 사본에서는 문의 전송과 관리자 화면이 동작하지 않습니다.</footer>
+</main>
+</body>
+</html>
